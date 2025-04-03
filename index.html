@@ -15,24 +15,40 @@
         </div>
         <div class="right-container">
             <p class="description">
-                Some description about the service here bla bla bla
+                Hey join our amazing website by signing up here. You'll get access to amazing features such as free, exclusive bananas. 
             </p>
             <div class="form-container">
-                <h2>Title</h2>
+                <h2>Your Details</h2>
                 <form action="post">
-                    <label for="first-name">First Name</label>
-                    <input type="text" class="first-name" name="first-name">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" class="last-name" name="last-name">
-                    <label for="email">Email</label>
-                    <input type="email" class="email" name="email">
-                    <label for="phone-number">Phone Number</label>
-                    <input type="number" class="phone-number" name="phone-number">
-                    <label for="password">Password</label>
-                    <input type="password" class="password" name="password">
-                    <label for="second-password">Confirm Password</label>
-                    <input type="password" class="second-password" name="second-password">
-
+                    <label>First Name
+                        <input type="text" name="first-name">
+                    </label>
+                    
+                    <label>
+                        Last Name
+                        <input type="text" name="last-name">
+                    </label>
+                   
+                    <label>
+                        Email
+                        <input type="email" class="email" name="email">
+                    </label>
+                    
+                    <label>
+                        Phone Number
+                        <input type="tel" name="phone-number" pattern="^((\+44)|(0)) ?\d{4} ?\d{6}$">
+                    </label>
+                    
+                    <label>
+                        Password
+                        <input type="password" name="password" required>
+                    </label>
+                   
+                    <label>
+                        Confirm Password
+                        <input type="password" name="second-password" required>
+                    </label>
+                    
                 </form>
             </div>
             <div class="button-container">
