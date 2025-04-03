@@ -80,6 +80,24 @@
     background-size: cover;
     height: 100vh;
     width: 40%;
+    position: relative;
+  }
+
+  .left-container p {
+    color: var(--white-font);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .pic-link {
+    color: var(--white-font);
+  }
+
+  .pic-link:hover {
+    background-color: var(--button-col);
   }
 
   .title {
