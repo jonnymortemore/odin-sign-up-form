@@ -48,6 +48,51 @@
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
   }
-  
 
-  
+  /* Colours */
+
+  :root {
+    --white-font: #ffffff;
+  }
+
+  /* Font */
+
+  @font-face {
+    font-family: norse-font;
+    src: url("Norse-Bold.otf");
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-container {
+    background-image: url("background_image.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    color: var(--white-font);
+    font-family: norse-font, monospace;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 3rem;
+  }
+  .title img {
+    height: 150px;
+    width: auto;
+  }
